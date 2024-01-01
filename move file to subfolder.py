@@ -1,4 +1,8 @@
-base_path = "D:/folder"
+import os
+import shutil
+from tqdm import tqdm
+
+base_path = "C:/folder"
 
 images = [f for f in os.listdir(base_path) if '.jpg' in f.lower()]
 
